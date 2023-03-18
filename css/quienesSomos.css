@@ -61,7 +61,7 @@
   --bs-body-font-weight: 400;
   --bs-body-line-height: 1.5;
   --bs-body-color: #212529;
-  --bs-body-bg: #fdcae1;
+  --bs-body-bg: #ffffff;
 }
 
 *,
@@ -241,7 +241,7 @@ a {
   text-decoration: underline;
 }
 a:hover {
-  color:#b11161;
+  color:#343a40;
 }
 
 a:not([href]):not([class]), a:not([href]):not([class]):hover {
@@ -11391,7 +11391,7 @@ p.lead {
   height: 3.5rem;
   width: 3.5rem;
   background-color: #5c0a33;
-  color: #fdcae1;
+  color: #ffffff;
   border-radius: 100%;
   font-size: 1.5rem;
   margin-right: 1.5rem;
@@ -11400,7 +11400,7 @@ p.lead {
   margin-right: 0;
 }
 .social-icons .social-icon:hover {
-  background-color: #b11161;
+  background-color: #6c757d;
 }
 
 .dev-icons {
