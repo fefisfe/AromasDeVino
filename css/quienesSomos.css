@@ -84,7 +84,7 @@ body {
   line-height: var(--bs-body-line-height);
   color: var(--bs-body-color);
   text-align: var(--bs-body-text-align);
-  background-image: url(../assets/galeria/img/quienesSomos.jpeg);
+  background-image: url(../assets/galeria/img/QuienesSomos.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -7363,7 +7363,7 @@ textarea.form-control-lg {
 }
 
 .mb-0 {
-  color: #31373d;
+  color: #6c757d;
   margin-bottom: 0 !important;
 }
 
@@ -7384,6 +7384,7 @@ textarea.form-control-lg {
 }
 
 .mb-5 {
+  color: #6c757d;
   margin-bottom: 3rem !important;
 }
 
