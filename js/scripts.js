@@ -1,3 +1,8 @@
+
+
+
+
+
 const items = document.getElementById('items')
 const templateCard = document.getElementById('')
 
