@@ -17,8 +17,14 @@
         <!-- Core theme CSS (includes Bootstrap)-->
         <link href="css/styles.css" rel="stylesheet" />
         <script>
-            alert("Para seguir navegando en esta página debes ser mayor de edad")
-            </script>
+         let confirmar = confirm('¿Eres mayor de 18 años de edad?')
+            console.log(confirmar)
+            if(confirmar){
+                alert('Puedes seguir navegando')
+            }else{
+                alert('No puedes seguir navegando')
+            }
+        </script>
     </head>
     <body>
         <!-- Navigation-->

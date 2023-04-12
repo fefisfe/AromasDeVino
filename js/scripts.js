@@ -1,21 +1,11 @@
 
+let confirmar = confirm('¿Eres mayor de 18 años de edad?')
+   console.log(confirmar)
+   if(confirmar){
+       alert('Puedes seguir navegando')
+   }else{
+       alert('No puedes seguir navegando')
+   }
 
 
-
-
-const items = document.getElementById('items')
-const templateCard = document.getElementById('')
-
-document.addEventListener('DOMContentLoaded', () => {
-    fetchData()
-});
-
-const fetchData = async () => {
-    try{
-        const res = await fetch('api.json')
-        const data = await res.json()
-        console.log(data)
-    }catch (error) {
-        console.log(error)
-    }
-};
+   
